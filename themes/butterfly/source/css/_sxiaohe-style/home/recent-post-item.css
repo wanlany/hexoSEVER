@@ -1,0 +1,60 @@
+#recent-posts > .recent-post-item .post_cover {
+    overflow: hidden;
+    width: 44%;
+    height: 100%!important;
+}
+.recent-posts {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+@media screen and (max-width: 785px) {
+    #recent-posts > .recent-post-item .post_cover {
+        width: 100%;
+        height: 187px!important;
+    }
+}
+@media screen and (max-width: 900px) {
+    .recent-posts {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+/* --------------------------------------------------------------------------- */
+#recent-posts>.recent-post-item {
+    border: 2px solid rgba(0, 255, 255, .6);
+    font-size: 14.5px;
+    font-weight: 700;
+    background: rgba(255, 255, 255, .67);
+}
+#recent-posts>.recent-post-item {
+    border-radius: 18px;
+    max-height: 200px;
+}
+@media screen and (max-width: 785px) {
+    #recent-posts>.recent-post-item {
+        max-height: 300px;
+    }
+}
+/* --------------------------------------------------------------------------- */
+.recent-posts .recent-post-item .left+.recent-post-info+.post-card-bar {
+    background: #00c4b6b6;
+    right: 5px;
+}
+
+.recent-posts .recent-post-item .post-card-bar {
+    width: 5px;
+    height: 60px;
+    margin: auto;
+    position: absolute;
+    border-radius: 30px;
+}
+
+#recent-posts>.recent-post-item .post_cover img.post_bg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#recent-posts>.recent-post-item .post_cover img.post_bg {
+    border-radius: 12px;
+}
