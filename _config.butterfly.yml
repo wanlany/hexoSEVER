@@ -607,7 +607,7 @@ beautify:
 font:
   global-font-size:
   code-font-size:
-  font-family:
+  font-family: AaJiaoTangBuDing
   code-font-family:
 
 # Font settings for the site title and site subtitle
@@ -884,6 +884,7 @@ css_prefix: true
 inject:
   head:
     - <link rel="stylesheet" href="/sxiaohe_source/css/page_css/equipment/index.css">
+    - <link rel="stylesheet" href="/sxiaohe_source/font.css">
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
     # - <script src="xxxx"></script>
