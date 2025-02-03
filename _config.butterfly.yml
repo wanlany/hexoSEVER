@@ -39,8 +39,8 @@ copy:
 # formal:
 #   icon: link || the description
 social:
-  # fab fa-github: https://github.com/xxxxx || Github
-  # fas fa-envelope: mailto:xxxxxx@gmail.com || Email
+  fab fa-github: https://github.com/661111 || Github
+  fas fa-envelope: mailto:3227988255@qq.com || Email
 
 # search (搜索)
 # see https://butterfly.js.org/posts/ceeb73f/#搜索系統
@@ -670,12 +670,12 @@ aside:
     category: true
   card_author:
     enable: true
-    description:
+    description: 随风飘起 如同浮云
     button:
       enable: true
       icon: fab fa-github
       text: Follow Me
-      link: https://github.com/xxxxxx
+      link: https://github.com/661111
   card_announcement:
     enable: true
     content: This is my Blog
