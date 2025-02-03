@@ -8,14 +8,12 @@ menu:
     标签: /tags/ || fa-solid fa-tags
     分类: /categories/ || fa-solid fa-folder-open
   社交 || fa-solid fa-cubes:
-    友链: /blogroll/ || fa-solid fa-link
+    友链: /link/ || fa-solid fa-link
     友圈: /moments/ || fa-solid fa-blog
-    音乐: /music/ || fa-solid fa-music
     短文: /essay/ || fa-solid fa-comment-alt
   关于 || fa-solid fa-desktop:
-    订阅: /sub/ || fa-solid fa-bell
-    本站: /about/ || fa-solid fa-list-check
-    隐私: /privacy-policy/ || fa-solid fa-user-secret
+    关于本站: /about/ || fa-solid fa-list-check
+    我的装备: /privacy-policy/ || fa-solid fa-user-secret
 
 # Code Blocks (代碼相關)
 # --------------------------------------
