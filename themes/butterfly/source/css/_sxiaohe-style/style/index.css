@@ -7,6 +7,14 @@
     transition: 0.3s;
     background: rgba(255, 255, 255, .67);
 }
+/* 侧边栏整体卡片文字样式调整 */
+#aside-content .card-widget.card-friend-link, .card-webinfo {
+    font-size: 105%;
+}
+/* 侧边栏整体卡片和首页文章列表样式调整 */
+#aside-content .card-widget, #recent-posts>.recent-post-item {
+    border-radius: 18px;
+}
 /* 侧边栏本人介绍卡片样式调整 */
 #aside-content > .card-widget:first-child {
     clip-path: polygon(0px 0px, 100% 0px, 100% 50%, 100% 100%, 80% 100%, 75% 99%, 25% 99%, 20% 100%, 0px 100%);
