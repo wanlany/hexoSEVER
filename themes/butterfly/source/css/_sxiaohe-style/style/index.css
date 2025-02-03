@@ -19,6 +19,33 @@
 #aside-content > .card-widget:first-child {
     clip-path: polygon(0px 0px, 100% 0px, 100% 50%, 100% 100%, 80% 100%, 75% 99%, 25% 99%, 20% 100%, 0px 100%);
 }
+#aside-content .card-info .author-info__name {
+    font-weight: 800!important;
+    font-size: 1.8em!important;
+}
+#aside-content .card-info .author-info__description {
+    margin-top: -.2em!important;
+    font-size: 16.5px!important;
+}
+.card-info-data-item:not(:last-child)::after {
+    opacity: .3;
+    position: absolute;
+    top: 11px;
+    right: 0;
+    content: "";
+    width: 1px;
+    height: 35px;
+    background: var(--font-color);
+}
+#aside-content .card-info .card-info-data>.card-info-data-item a .headline {
+    color: var(--font-color);
+    font-size: 1em!important;
+}
+#aside-content .card-info .card-info-data>.card-info-data-item a .length-num {
+    margin-top: -.42em!important;
+    color: var(--text-highlight-color);
+    font-size: 1.4em!important;
+}
 /* 侧边栏其他卡片样式调整 */
 #aside-content .card-widget:not(.card-info):not(#card-tuijian):before {
     content: "";
