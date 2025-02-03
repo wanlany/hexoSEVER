@@ -88,7 +88,7 @@ avatar:
   effect: false
 
 # Disable all banner image
-disable_top_img: false
+disable_top_img: true
 
 # The banner image of home page
 index_img:
@@ -168,7 +168,7 @@ wordcount:
 # 3: auto_excerpt (default)
 # false: do not show the article introduction
 index_post_content:
-  method: 3
+  method: 2
   length: 500 # if you set method to 2 or 3, the length need to config
 
 # anchor
@@ -660,7 +660,7 @@ aside:
   enable: true
   hide: false
   button: true
-  mobile: true # display on mobile
+  mobile: false # display on mobile
   position: right # left or right
   display:
     archive: true
