@@ -1,0 +1,12 @@
+/* 功能性调整 */
+/* 由苏晓河进行编写以及调整 */
+/* 时间：2025年2月4日 */
+
+/* 1.个人介绍中的头像旋转关闭 */
+.avatar-img img:hover {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
