@@ -1,10 +1,11 @@
 ---
 title: Hello World
+description: 测试文章简介
 cover: /img/68-1.webp
 category: test
 top_img: /img/68-1.webp
-description: 测试文章简介
 ---
+
 测试123
 ## Quick Start
 
