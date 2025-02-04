@@ -3,10 +3,9 @@ title: Hello World
 cover: /img/68-1.webp
 category: test
 top_img: /img/68-1.webp
-description: test
+description: 测试文章简介
 ---
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
-
+测试123
 ## Quick Start
 
 ### Create a new post
