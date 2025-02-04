@@ -18,10 +18,3 @@ svg.icon {
     fill: currentColor;
     overflow: hidden;
   }
-/* 首页文章卡片简介隐藏 */
-#recent-posts>.recent-post-item>.recent-post-info>.content {
-    opacity: 0;
-    line-height: .7;
-    transition: all .3s;
-    bottom: 0;
-}
