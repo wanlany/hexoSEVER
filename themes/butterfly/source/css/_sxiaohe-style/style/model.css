@@ -1,0 +1,19 @@
+/* 模块化调整 */
+/* 由苏晓河进行编写以及调整 */
+/* 时间：2025年2月4日 */
+/* 1.首页文章卡片bar */
+.recent-posts .recent-post-item .left+.recent-post-info+.post-card-bar {
+    background: #00c4b6b6;
+    right: 5px
+}
+.recent-posts .recent-post-item .right+.recent-post-info+.post-card-bar {
+    background: #1dbfffb6;
+    left: 5px
+}
+.recent-posts .recent-post-item .post-card-bar {
+    width: 5px;
+    height: 60px;
+    margin: auto;
+    position: absolute;
+    border-radius: 30px;
+}
