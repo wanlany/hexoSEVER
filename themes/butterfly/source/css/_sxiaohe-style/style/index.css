@@ -113,3 +113,7 @@
         height: 300px
     }
 }
+/* QCQX 首页文章卡片设置 */
+#recent-posts > .recent-post-item .post_cover img.post_bg {
+    border-radius: 12px;
+}
