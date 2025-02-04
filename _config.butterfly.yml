@@ -890,7 +890,7 @@ inject:
   bottom:
     # - <script src="xxxx"></script>
     - <script src="/js/sxiaohe.js"></script>
-    - <script src="/qcqx.js"></script>
+    # - <script src="/qcqx.js"></script>
     - <script async src="https://cdn.sxiaohe.top/js/font_3586335_hsivh70x0fm.js"></script>
     - <script async src="https://cdn.sxiaohe.top/js/font_3636804_glcijzcpx7f.js"></script>
     - <script async src="https://cdn.sxiaohe.top/js/font_3612150_gkavascgf3n.js"></script>
@@ -907,7 +907,7 @@ CDN:
   # The CDN provider of third party scripts (第三方 js 的 cdn 配置)
   # option: local/jsdelivr/unpkg/cdnjs/custom
   # when set it to local, you need to install hexo-butterfly-extjs
-  third_party_provider: custom
+  third_party_provider: unpkg
 
   # Add version number to CDN, true or false  
   version: false
@@ -948,8 +948,8 @@ CDN:
     # instantpage:
     # typed:
     # pangu:
-    # fancybox_css_v4:
-    # fancybox_v4:
+    fancybox_css_v4: https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/fancybox/3.5.7/jquery.fancybox.min.css
+    fancybox_v4: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/fancybox/3.5.7/jquery.fancybox.min.js
     # medium_zoom:
     # snackbar_css:
     # snackbar:
@@ -966,8 +966,8 @@ CDN:
     # prismjs_js:
     # prismjs_lineNumber_js:
     # prismjs_autoloader:
-    # artalk_js:
-    # artalk_css:
+    artalk_js: https://comment.sxiaohe.top/dist/Artalk.js
+    artalk_css: https://comment.sxiaohe.top/dist/Artalk.css
 
 #hexo-butterfly-footer-marcus
 #see https://blog.marcus233.top/p/footer.html
