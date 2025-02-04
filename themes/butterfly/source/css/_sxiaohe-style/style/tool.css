@@ -10,3 +10,11 @@
     -ms-transform: rotate(360deg);
     transform: rotate(360deg);
 }
+/* 2.iconfont的css样式表 */
+svg.icon {
+    width: 1.28em;
+    height: 1.28em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+  }
