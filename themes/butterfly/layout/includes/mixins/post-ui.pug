@@ -15,6 +15,7 @@ mixin postUI(posts)
         .post_cover(class=leftOrRight)
           a(href=url_for(link) title=title)
             img.post_bg(src=url_for(post_cover) onerror=`this.onerror=null;this.src='`+ url_for(theme.error_img.post_page) + `'` alt=title)
+      .post-card-bar
       .recent-post-info(class=no_cover)
         a.article-title(href=url_for(link) title=title)= title
         .article-meta-wrap
@@ -138,7 +139,6 @@ mixin postUI(posts)
             - let expert = content.substring(0, theme.index_post_content.length) 
             - content.length > theme.index_post_content.length ? expert += ' ...' : ''
             .content!= expert
-      .post-card-bar
 
     if theme.ad && theme.ad.index
       if (index + 1) % 3 == 0
