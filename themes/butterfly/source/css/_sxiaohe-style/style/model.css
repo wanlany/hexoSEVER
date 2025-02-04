@@ -2,6 +2,17 @@
 /* 由苏晓河进行编写以及调整 */
 /* 时间：2025年2月4日 */
 /* 1.首页文章卡片bar */
+#recent-posts>.recent-post-item>.recent-post-info {
+    padding: 0 40px;
+    width: 57%
+}
+
+@media screen and (max-width: 768px) {
+    #recent-posts>.recent-post-item>.recent-post-info {
+        padding:2px 10px;
+        width: 100%
+    }
+}
 .recent-posts .recent-post-item .post-card-bar {
     width: 5px;
     height: 60px;
@@ -68,4 +79,22 @@
         -ms-border-radius: 12px 12px 5px 5px;
         -o-border-radius: 12px 12px 5px 5px
     }
+}
+/* 2.首页文章卡片隐藏简介 */
+#recent-posts>.recent-post-item:hover .recent-post-info .content {
+    opacity: 1;
+    line-height: 1.5;
+    transition: all .3s
+}
+
+#recent-posts>.recent-post-item:hover .recent-post-info {
+    top: 0;
+    transition: all .3s
+}
+
+#recent-posts>.recent-post-item>.recent-post-info>.content {
+    opacity: 0;
+    line-height: .7;
+    transition: all .3s;
+    bottom: 0
 }
