@@ -886,11 +886,11 @@ inject:
     - <link rel="stylesheet" href="https://cdn.sxiaohe.top/css/font-awesome-animation.min.css"  media="defer" onload="this.media='all'">
     - <link rel="stylesheet" href="/sxiaohe_source/css/page_css/equipment/index.css">
     - <link rel="stylesheet" href="/sxiaohe_source/font.css">
-    # - <link rel="stylesheet" href="/xxx.css">
+    #- <link rel="stylesheet" href="/xxx.css">
   bottom:
     # - <script src="xxxx"></script>
     - <script src="/js/sxiaohe.js"></script>
-    # - <script src="/qcqx.js"></script>
+    - <script src="/js/qcqx.js"></script>
     - <script async src="https://cdn.sxiaohe.top/js/font_3586335_hsivh70x0fm.js"></script>
     - <script async src="https://cdn.sxiaohe.top/js/font_3636804_glcijzcpx7f.js"></script>
     - <script async src="https://cdn.sxiaohe.top/js/font_3612150_gkavascgf3n.js"></script>
@@ -907,7 +907,7 @@ CDN:
   # The CDN provider of third party scripts (第三方 js 的 cdn 配置)
   # option: local/jsdelivr/unpkg/cdnjs/custom
   # when set it to local, you need to install hexo-butterfly-extjs
-  third_party_provider: unpkg
+  third_party_provider: cdnjs
 
   # Add version number to CDN, true or false  
   version: false
