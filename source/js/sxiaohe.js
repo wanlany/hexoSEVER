@@ -28,8 +28,8 @@ $(".topGroup").hover((function() {}
     }
 ))
 /* 文章封面自动提取色彩 */
-if (document.getElementById('post-cover')) {
-    const img = document.getElementById('post-cover').getAttribute('data-lazy-src')
+if (document.getElementById('page-header')) {
+    const img = document.getElementById('page-header').getAttribute('data-lazy-src')
     RGBaster.colors(img, {
         paletteSize: 30,
         exclude: ["rgb(255,255,255)", "rgb(0,0,0)", "rgb(254,254,254)"],
