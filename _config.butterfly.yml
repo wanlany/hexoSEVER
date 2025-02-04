@@ -883,6 +883,7 @@ inject:
   head:
     - <link rel="stylesheet" href="/sxiaohe_source/css/page_css/equipment/index.css">
     - <link rel="stylesheet" href="/sxiaohe_source/font.css">
+    - <script src="/js/sxiaohe.js"></script>
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
     # - <script src="xxxx"></script>
